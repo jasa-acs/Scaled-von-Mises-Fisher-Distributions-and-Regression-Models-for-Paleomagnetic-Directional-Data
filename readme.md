@@ -1,14 +1,15 @@
 # Scaled von Mises–Fisher Distributions and Regression Models for Paleomagnetic Directional Data
 
 
-## DATA
+## Data
 
 The datafile EIFdata3 is a subset of the archeomagnetic data found in the GEOMAGIA50.v3 online database. For further details see Brown et al. (2015) which is a cited reference in the paper. We extracted the data from the database and the EIFdata3 dataset contains observations on and near the Eifel maars lakes in Germany. 
 File format is a csv file. The data items are age in years, dec which is declination angle, inc which is inclination angle, lat which is latitude and lon which is longitude.
 
-## CODE
+## Code
 
 The code calculates parameter estimates in the IID case (see section 4.1 in the paper) and also estimated regression parameters (see section 4.2 in the paper). We also include code for the Kent model.
+
 The code is in R and we include all relevant functions. 
 
 
